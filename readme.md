@@ -140,7 +140,7 @@
 
 Команда:
 ```bash
-python dependency_visualizer.py --renderer mmdc --package openldap --repository https://dl-cdn.alpinelinux.org/alpine/v3.0/main/x86
+python dependency_visualizer.py
 
 ## 5. Запуск тестов
 
