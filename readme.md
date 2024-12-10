@@ -141,16 +141,15 @@
 Команда:
 ```bash
 python dependency_visualizer.py
-
+```
 ## 5. Запуск тестов
 
 ```bash
 pytest test_dependency_visualizer.py
 ```
 
-```
-![Скриншот результатов](photos/photo.png)
 
+![Скриншот результатов](photos/photo.png)
 
 
 

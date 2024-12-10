@@ -1,0 +1,10 @@
+digraph G {
+    "openldap" -> "busybox"
+    "busybox" -> "so_libc_musl_x86_so_1"
+    "openldap" -> "so_libc_musl_x86_so_1"
+    "openldap" -> "so_liblber_2_4_so_2"
+    "openldap" -> "so_libldap_r_2_4_so_2"
+    "openldap" -> "so_libltdl_so_7"
+    "openldap" -> "so_libsasl2_so_3"
+    "openldap" -> "so_libuuid_so_1"
+}

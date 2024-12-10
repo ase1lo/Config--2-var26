@@ -1,0 +1,9 @@
+digraph G {
+    "nginx" -> "busybox"
+    "busybox" -> "so_libc_musl_x86_so_1"
+    "nginx" -> "so_libc_musl_x86_so_1"
+    "nginx" -> "so_libcrypto_so_1_0_0"
+    "nginx" -> "so_libpcre_so_1"
+    "nginx" -> "so_libssl_so_1_0_0"
+    "nginx" -> "so_libz_so_1"
+}
